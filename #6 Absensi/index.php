@@ -216,7 +216,7 @@ if($content){
                 }
                 else 
                 {
-                    $reply.="Sistem mendeteksi anda berada di <b> $jarak KM </b> dari lokasi kantor. \n\nPastikan anda hadir dikantor untuk melakukan absensi.  \n\n<b>Share kembali kordinat anda : </b>\n\n";
+                    $reply.="Sistem mendeteksi bahwa anda berada di <b> $jarak KM </b> dari lokasi kantor. \n\nPastikan anda hadir dikantor untuk melakukan absensi.  \n\n<b>Share kembali kordinat anda : </b>\n\n";
                     
                     $key =['remove_keyboard'=>true,];
                     sendTyping($apiLink, $chat_id);
